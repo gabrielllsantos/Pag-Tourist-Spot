@@ -88,13 +88,13 @@ ul li::before {
   line-height: 1.4;
 }
 
-li:nth-child(1) {
+.purple-list {
   color: var(--accent-purple);
 }
-li:nth-child(2) {
+.pink-list {
   color: var(--accent-pink);
 }
-li:nth-child(3) {
+.orange-list {
   color: var(--accent-orange);
 }
 
@@ -157,7 +157,7 @@ footer p {
   color: #dadada; 
 }
 
-@media (max-width: 768px),(min-width: 481px) {
+@media (max-width: 768px) {
   main {
     max-width: 738px;
     padding: 0px 40px 20px;
